@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+@layer components {
+    .forinput {
+        @apply h-full bg-[#36405080] hover:bg-[#36405090] p-1.5 rounded-md text-[white] pl-2.5 border-[none] outline-0 transition-all duration-200;
+    }
+
+    .inputs {
+        @apply h-full relative
+    }
+
+    .savebtn {
+        @apply cursor-pointer rounded-sm text-base font-semibold px-5 py-2 focus:outline-none bg-gray-400 hover:bg-gray-100 focus:bg-gray-100 text-black focus:ring-3 focus:ring-gray-600 hover:ring-3 hover:ring-gray-800 transition-all duration-200;
+    }
+
+    .input-svg {
+        @apply flex absolute right-0 top-[10px] cursor-pointer bottom-0 place-content-center px-3
+    }
+}
+
+.white {
+    text-decoration: underline;
+    text-decoration-color: white;
+}
