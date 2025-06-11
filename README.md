@@ -34,6 +34,19 @@ PassVault is a responsive and modern password manager built with **React.js**, *
 1. **Clone the repository:**
    
    git clone <repo-url>
-   cd Password-Manager-LS-
+   cd Password-Manager-App1
    npm install
    npm run dev
+
+   ## 👨‍💻 Author
+
+**Your Name**  
+GitHub: [@CodzHorizon](https://github.com/CodzHorizon)
+
+---
+
+## ©️ Copyright
+
+© 2025 CodzHorizon. All rights reserved.
+
+This project is intended for educational and personal use only.
