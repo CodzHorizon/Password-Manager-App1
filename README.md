@@ -1,12 +1,39 @@
-# React + Vite
+# PassVault - Password Manager
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+PassVault is a responsive and modern password manager built with **React.js**, **Vite**, **Tailwind CSS**, and **Local Storage**. It allows users to securely store, edit, and delete their passwords with a clean and intuitive interface.
 
-Currently, two official plugins are available:
+# ScreenShots
+![image](https://github.com/user-attachments/assets/ee52a5a4-5df8-4f14-a828-0ffbfa393aff)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Mobile View
 
-## Expanding the ESLint configuration
+![image](https://github.com/user-attachments/assets/c625ae48-04c8-4196-848f-1e81346065e8)
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Features
+
+- **Add Passwords:** Save website credentials (site, username/email, password) securely in your browser's local storage.
+- **Edit Passwords:** Update existing credentials easily.
+- **Delete Passwords:** Remove credentials you no longer need.
+- **Copy to Clipboard:** Instantly copy site, username, or password with a single click.
+- **Show/Hide Password:** Toggle password visibility for convenience.
+- **Persistent Storage:** All data is stored in the browser's local storage, ensuring your passwords remain available across sessions.
+- **Responsive Design:** Optimized for all screen sizes, from mobile to desktop.
+- **Modern UI:** Built with Tailwind CSS for a sleek and user-friendly experience.
+- **Notifications:** Get instant feedback for actions like save, delete, and copy using [react-toastify](https://fkhadra.github.io/react-toastify/introduction/).
+
+## How It Works
+
+- **Frontend:** Built with [React.js](https://react.dev/) and [Vite](https://vitejs.dev/) for fast development and hot module replacement.
+- **Styling:** Uses [Tailwind CSS](https://tailwindcss.com/) for utility-first, responsive design.
+- **Routing:** Managed with [react-router-dom](https://reactrouter.com/) for seamless navigation.
+- **Unique IDs:** Password entries are uniquely identified using [uuid](https://www.npmjs.com/package/uuid).
+- **Local Storage:** All password data is stored locally in your browser, ensuring privacy and persistence.
+
+## Getting Started
+
+1. **Clone the repository:**
+   
+   git clone <repo-url>
+   cd Password-Manager-LS-
+   npm install
+   npm run dev
